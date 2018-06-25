@@ -2,86 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ccf306f5-d217-4f5f-9ddf-6897964aa8ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Hw2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/usage.statistics.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JsonKeyValueStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KeyValueStorageInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MemoryCacheKeyValueStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/YAMLKeyValueStorage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/Ctype.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Command/LintCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Dumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Escaper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Exception/DumpException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Exception/ExceptionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Exception/ParseException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Exception/RuntimeException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Inline.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tag/TaggedValue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Command/LintCommandTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/DumperTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsAnchorAlias.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsBasicTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsBlockMapping.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsDocumentSeparator.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsErrorTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsFlowCollections.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsFoldedScalars.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsNullsAndEmpties.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsSpecificationExamples.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/YtsTypeTransfers.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/booleanMappingKeys.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/embededPhp.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/escapedCharacters.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/index.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/multiple_lines_as_literal_block.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/multiple_lines_as_literal_block_leading_space_in_first_line.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/nonStringKeys.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/not_readable.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/nullMappingKey.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/numericMappingKeys.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfComments.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfCompact.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfMergeKey.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfObjects.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfQuotes.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/sfTests.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/Fixtures/unindentedCollections.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/InlineTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParseExceptionTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParserTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/YamlTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Unescaper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Yaml.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/yaml/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/usage.statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/usage.statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JsonKeyValueStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/JsonKeyValueStorage.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/JsonKeyValueStorage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
+            <state relative-caret-position="116">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -106,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MemoryCacheKeyValueStorage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
+            <state relative-caret-position="209">
               <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
             </state>
           </provider>
@@ -148,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            <state>
+              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -175,8 +98,8 @@
         <option value="$PROJECT_DIR$/src/MemoryCacheKeyValueStorage.php" />
         <option value="$PROJECT_DIR$/src/index.php" />
         <option value="$PROJECT_DIR$/src/YAMLKeyValueStorage.php" />
-        <option value="$PROJECT_DIR$/src/JsonKeyValueStorage.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/JsonKeyValueStorage.php" />
       </list>
     </option>
   </component>
@@ -260,18 +183,18 @@
       <option name="presentableId" value="Default" />
       <updated>1529842852506</updated>
       <workItem from="1529842853702" duration="5977000" />
-      <workItem from="1529903633284" duration="4442000" />
+      <workItem from="1529903633284" duration="5982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10419000" />
+    <option name="totallyTimeSpent" value="11959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25454545" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25454545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -284,7 +207,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924242" visible="true" weight="0.32952693" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924242" visible="true" weight="0.32952693" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007576" side_tool="true" weight="0.3284553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -355,20 +278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JsonKeyValueStorage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="56" column="30" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MemoryCacheKeyValueStorage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/YAMLKeyValueStorage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
@@ -378,8 +287,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MemoryCacheKeyValueStorage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="43" column="33" lean-forward="true" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JsonKeyValueStorage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
