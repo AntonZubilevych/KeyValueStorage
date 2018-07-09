@@ -70,4 +70,9 @@ class YAMLKeyValueStorage implements KeyValueStorageInterface
         }
         return Yaml::parseFile($this->filename);
     }
+
+    public function getFileName():string
+    {
+        return $this->filename;
+    }
 }

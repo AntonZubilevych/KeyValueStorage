@@ -65,4 +65,9 @@ class JsonKeyValueStorage implements KeyValueStorageInterface
         $json = json_encode($array);
         file_put_contents($this->fileName, $json,  LOCK_EX);
     }
+
+    public function getFileName():string
+    {
+        return $this->fileName;
+    }
 }
