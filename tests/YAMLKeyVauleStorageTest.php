@@ -38,6 +38,9 @@ class YAMLKeyValueStorageTest extends TestCase
 
     public function testGet()
     {
+        $this->file->set('Anton', '111');
+
+        $this->assertEquals('111' , $this->file->get('Anton'));
         $this->assertNull($this->file->get('Vasya'));
     }
 

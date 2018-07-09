@@ -12,21 +12,20 @@ class JsonKeyValueStorage implements KeyValueStorageInterface
         $this->fileName = $file;
     }
 
-    public function set(string $key, $value): void
+    public function set( string $key, $value): void
     {
         $array = $this->getContentFromJson();
-        if (!isset($array[$key])) {
-            $array[$key] = $value;
-            $this->setContentToJson($array);
-        }
-
+        $array[$key] = $value;
+        $this->setContentToJson($array);
     }
 
 
     public function get(string $key)
     {
         $array = $this->getContentFromJson();
-        return $array[$key];
+        if ($this->has($key)){
+           return $array[$key];
+        }
     }
 
     public function has(string $key): bool
@@ -46,8 +45,7 @@ class JsonKeyValueStorage implements KeyValueStorageInterface
 
     public function clear(): void
     {
-        $array = [];
-        $this->setContentToJson($array);
+        $this->setContentToJson('');
     }
 
     private function getContentFromJson():?array
